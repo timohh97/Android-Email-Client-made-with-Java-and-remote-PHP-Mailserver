@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
                     try {
 
-                        task.execute("https://timoschessl.com/mailserverAndroid.php?to="+toEmail+"");
+                        task.execute("https://timoschessl.com/mailserverAndroid.php?to="+toEmail+"&from="+fromEmail+"&message="+message+"");
 
                     }
                     catch(Exception e)
